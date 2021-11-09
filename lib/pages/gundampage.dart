@@ -20,7 +20,7 @@ class _GundampageState extends State<Gundampage> {
     return Scaffold(
       extendBodyBehindAppBar: true,
         appBar: AppBar(
-          title: Text("GUNDAM SERIES CORE"),
+          title: Text("SERIES CORE GUNDAM"),
           backgroundColor: Colors.black,
           flexibleSpace: Container(
 
@@ -52,7 +52,7 @@ class _GundampageState extends State<Gundampage> {
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.settings_accessibility,size: 50,),
-              label: 'FORM',
+              label: 'ACCESSORIES',
             ),
           ],
           currentIndex: _sIndex,

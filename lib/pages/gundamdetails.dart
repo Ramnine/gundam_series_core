@@ -59,7 +59,7 @@ class _DetailgundamState extends State<Detailgundam> {
 
                   ),
                   item.imagerear.length == 0 ?
-                  SizedBox.shrink():Image.asset(
+                  Text(""):Image.asset(
                     'assets/images/${item.imagerear}',height: 240,
 
 
