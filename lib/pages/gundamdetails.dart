@@ -25,12 +25,9 @@ class _DetailgundamState extends State<Detailgundam> {
           backgroundColor: Colors.white,
           flexibleSpace: Container(
             decoration: BoxDecoration(
-
               gradient: LinearGradient(
-                // ไล่เฉดจากมุมบนซ้ายไปมุมล่างขวาของ Container
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
-                // ไล่เฉดจากสีแดงไปสีน้ำเงิน
                 colors: [
                   Colors.blue,
                   Colors.red.shade600,
@@ -66,19 +63,7 @@ class _DetailgundamState extends State<Detailgundam> {
                   ),
                 ],
                   ),
-              ),//Padding(
-              //   padding: const EdgeInsets.all(10.0),
-              //   child: Row(
-              //     mainAxisAlignment: MainAxisAlignment.center,
-              //     children: [
-              //       Image.asset(
-              //         'assets/images/${item.imagerear}',
-              //         fit: BoxFit.cover,
-              //
-              //       ),
-              //     ],
-              //   ),
-              // ),
+              ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Row(
@@ -98,10 +83,8 @@ class _DetailgundamState extends State<Detailgundam> {
               Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      // ไล่เฉดจากมุมบนซ้ายไปมุมล่างขวาของ Container
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
-                      // ไล่เฉดจากสีแดงไปสีน้ำเงิน
                       colors: [
                         Colors.blue,
                         Colors.red.shade600,
@@ -132,10 +115,10 @@ class _DetailgundamState extends State<Detailgundam> {
               Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
-                    // ไล่เฉดจากมุมบนซ้ายไปมุมล่างขวาของ Container
+
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
-                    // ไล่เฉดจากสีแดงไปสีน้ำเงิน
+
                     colors: [
                       Colors.blue,
                       Colors.red.shade600,
@@ -166,10 +149,10 @@ class _DetailgundamState extends State<Detailgundam> {
               Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
-                    // ไล่เฉดจากมุมบนซ้ายไปมุมล่างขวาของ Container
+
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
-                    // ไล่เฉดจากสีแดงไปสีน้ำเงิน
+
                     colors: [
                       Colors.blue,
                       Colors.red.shade600,
@@ -200,10 +183,10 @@ class _DetailgundamState extends State<Detailgundam> {
               Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
-                    // ไล่เฉดจากมุมบนซ้ายไปมุมล่างขวาของ Container
+
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
-                    // ไล่เฉดจากสีแดงไปสีน้ำเงิน
+
                     colors: [
                       Colors.blue,
                       Colors.red.shade600,
@@ -234,10 +217,10 @@ class _DetailgundamState extends State<Detailgundam> {
               Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
-                    // ไล่เฉดจากมุมบนซ้ายไปมุมล่างขวาของ Container
+
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
-                    // ไล่เฉดจากสีแดงไปสีน้ำเงิน
+
                     colors: [
                       Colors.blue,
                       Colors.red.shade600,
