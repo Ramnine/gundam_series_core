@@ -2,10 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:gundamcore/models/gundam.dart';
 import 'package:gundamcore/pages/gundamdetails.dart';
-
 class Formgundam extends StatefulWidget {
   const Formgundam({Key? key}) : super(key: key);
-
   @override
   _FormgundamState createState() => _FormgundamState();
 }
